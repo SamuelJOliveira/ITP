@@ -76,5 +76,6 @@ Plateu funcao(Histograma a){
 //     if (dentroPlateau) {
 //         b.posFinal = a.qntFreq - 1;
 //     }
-//     return b;
-// }
+//     return b;fdfdfdfasfasdf
+// }afsdfasdf satt
+
