@@ -42,19 +42,19 @@ int Pontuacao(Ponto b[10])
 
         if (i > 0)
         {
-            if (dist(b[i], b[i + 1]) >= 0 && dist(b[i], b[i + 1]) <= 1)
+            if (dist(b[i], b[i - 1]) >= 0 && dist(b[i], b[i - 1]) <= 1)
             {
                 pontuacao = pontuacao + 5;
             }
-            if (dist(b[i], b[i + 1]) > 1 && dist(b[i], b[i + 1]) <= 2)
+            if (dist(b[i], b[i - 1]) > 1 && dist(b[i], b[i - 1]) <= 2)
             {
                 pontuacao = pontuacao + 3;
             }
-            if (dist(b[i], b[i + 1]) > 2 && dist(b[i], b[i + 1]) <= 3)
+            if (dist(b[i], b[i - 1]) > 2 && dist(b[i], b[i - 1]) <= 3)
             {
                 pontuacao = pontuacao + 2;
             }
-            if (dist(b[i], b[i + 1]) > 3)
+            if (dist(b[i], b[i - 1]) > 3)
             {
                 pontuacao = pontuacao + 0;
             }
